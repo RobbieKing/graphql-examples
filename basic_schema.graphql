@@ -1,0 +1,27 @@
+type Vehicle {
+    reg: String
+    make: String
+    odometer: Int
+}
+
+type Driver {
+	name: String
+}
+
+type Trip {
+	distance: Int
+	vehicle: Vehicle
+	driver: Driver
+}
+
+
+type Query {
+    getVehicle(reg: String) Vehicle
+}
+
+type Mutation {
+	createVehicle(
+        reg: String,
+        make: String,
+        odometer: String): Vehicle
+}

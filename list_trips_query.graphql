@@ -1,0 +1,13 @@
+query {
+	listTrips() {
+		items {
+			distance
+			vehicle {
+				reg
+			}
+			driver {
+				name
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+mutation (
+    $reg: String
+    $make: String
+    $odometer: Int
+) {
+	createVehicle(
+        reg: $reg, 
+        make: $make, 
+        odometer: $odometer) {
+		    reg
+	}
+}

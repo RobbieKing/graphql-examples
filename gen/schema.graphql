@@ -1,0 +1,7 @@
+type Vehicle {
+    reg: String
+}
+
+type Mutation {
+	createVehicle(reg: String): Vehicle
+}

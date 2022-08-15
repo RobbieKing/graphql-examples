@@ -1,0 +1,6 @@
+query {
+    getVehicle(reg: "GOPHER1") {
+        make
+        odometer
+    }
+}

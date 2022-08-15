@@ -1,0 +1,17 @@
+{
+    "data": {
+        "listTrips": {
+            "items": [
+                {
+                    "distance": 10000,
+                    "vehicle": {
+                        "reg": "GOPHER1"
+                    },
+                    "driver": {
+                        "name": "Go Gopher"
+                    }
+                }
+            ]
+        }
+    }
+}

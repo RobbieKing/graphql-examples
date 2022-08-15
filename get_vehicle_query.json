@@ -1,0 +1,8 @@
+{
+    "data": {
+        "getVehicle": {
+            "make": "GopherMobile",
+            "odometer": 10
+        }
+    }
+}

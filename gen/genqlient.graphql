@@ -1,0 +1,11 @@
+fragment Vehicle on Vehicle {
+    reg
+}
+
+mutation CreateVehicle(
+	$reg: String
+) {
+	createVehicle(reg: $reg){
+		...Vehicle
+	}
+}

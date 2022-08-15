@@ -1,0 +1,18 @@
+{
+    "query": "mutation (
+        $reg: String
+        $make: String
+        $odometer: Int
+    ) {
+        createVehicle(
+            reg: $reg, 
+            make: $make, 
+            odometer: $odometer) {
+                reg
+        }
+    }","variables": {
+        "reg": "GOPHER2",
+        "make": "GopherMobile",
+        "odometer": 100
+    }
+}

@@ -1,0 +1,8 @@
+mutation {
+	createVehicle(
+        reg: "GOPHER2", 
+        make: "GopherMobile", 
+        odometer: 100) {
+		    reg
+	}
+}
